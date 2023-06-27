@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <style type="text/css">
+        form{
+            margin:0 auto;
+            width:50%;
+        }
+    </style>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+   
+    <form>
+    <h1>Registration Form</h1>
+
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" pattern="=[0-9]{10}"><br>
+<br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <br>
+            <label for="education">Education:</label><br>
+            <input type="checkbox" id="UG" name="education"  value="UG"> 
+            <label for="UG">Undergraduate</label><br>
+            <input type="checkbox" id="pg" name="education" value="pg">
+            <label for="pg">Postgraduate</label><br>
+
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required><br>
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address"></textarea><br>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city"><br>
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state"><br>
+
+            <label for="Country">Country:</label>
+            <input type="text" id="country" name="country"><br>
+
+            <label for="zip">Zip:</label>
+            <input type="text" id="zip" name="zip"><br>
+
+            <h3>previous/Current Employment Details</h3>
+
+            <label for="Company name">Company name:</label>
+            <input type="text" id="company name" name="company name"><br>
+
+            <label for="Date of joining">Date of joining:</label>
+            <input type="date" id="Date of joining" name="Date of joining"><br>
+
+            
+            <label for="Date of leaving">Date of leaving:</label>
+            <input type="date" id="Date of leaving" name="Date of leaving"><br>
+
+            
+            <label for="current pay">Current pay:</label>
+            <input type="number" id="Current pay" name="Current pay"><br>
+
+            <label for="Applying for the post"> Applying for the post</label><br>
+            <input type="checkbox" name="position[]" id="ui-ux-manager" value="ui-ux-manager">
+            <label for="ui-ux-manager">UI/UX Designer </label><br>
+            <input type="checkbox" name="position[]" id="PHP/Laravel/Codelgniter" value="PHP/Laravel/Codelgniter">
+            <label for="PHP/Laravel/Codelgniter">PHP/Laravel/Codelgniter</label><br>
+
+            <input type="checkbox" name="position[]" id="React Native Developer" value="React Native Developer">
+            <label for="React Native Developer">React Native Developer</label><br>
+            <input type="checkbox" name="position[]" id="BDE(Business Development Executive)/Business Analyst" value="BDE(Business Development Executive)/Business Analyst">
+            <label for="BDE(Business Development Executive)/Business Analyst">BDE(Business Development Executive)/Business Analyst</label><br>
+            <input type="checkbox" name="position[]" id="HR Marketing" value="HR Marketing">
+            <label for="HR Marketing">HR Marketing</label><br>
+            <input type="checkbox" name="position[]" id="Digital Marketing/SEO Expert" value="Digital Marketing/SEO Expert">
+            <label for="Digital Marketing/SEO Expert">Digital Marketing/SEO Expert</label><br>
+        </fieldset>
+<br><br>
+        <input type="submit" value="Apply">
+    </form></form></form>
+</body>
+</html>
